@@ -1,0 +1,26 @@
+{
+  "name": "gym-leads-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260719.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "hono": "^4.12.31",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.112.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "razorpay": "^2.9.8"
+  }
+}

@@ -1,0 +1,17 @@
+name = "gym-leads-ai"
+main = "src/index.ts"
+compatibility_date = "2026-07-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gym-leads-db"
+database_id = "d6e4c2ce-4960-4f53-aa9e-c361ad624a77"
+
+[vars]
+GEMINI_MODEL = "gemini-3.5-flash"
+
+[assets]
+directory = "./frontend/dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*", "/webhook/*"]

@@ -1,0 +1,26 @@
+# Secrets - never commit
+.dev.vars
+*.pem
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+dist/
+
+# Wrangler local state
+.wrangler/
+
+# Test/scratch files from this session
+test-*.json
+insert-*.sql
+update-*.sql
+
+# OS/editor
+.DS_Store
+*.log
+
+cookies.txt
+structure.txt
